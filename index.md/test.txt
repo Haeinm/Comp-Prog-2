@@ -1,4 +1,0 @@
-#welcome to Grace's programming portfolio
-## Programming semester 2 project
-### Shape tester
-OOP shape tester
