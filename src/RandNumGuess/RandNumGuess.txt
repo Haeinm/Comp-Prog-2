@@ -1,0 +1,26 @@
+# =^-^= set needed random import in
+import random
+# welcome the guest into your guessing game.
+print("welcome to the number guessing game, test your luck")
+# set variables needed for user input, random number, and attempts!
+b = random.randrange(1, 100)
+w = int(input("random number between 1-100: "))
+attempt = 1
+#set while loop to make continous guessing
+while True:
+  if (w > b): 
+    # if guess is greater than number, indicate so and increase attempts
+    print("That guess is too high, try again, attempts:" + str(attempt))
+    attempt = attempt + 1
+    #reassign variable user input
+    w = int(input("guess again," + "you're on attempt number " + str(attempt) + " : "))
+  elif w == b:
+    #congradulate user for getting number, break from code
+    print("you got it")
+    break
+  else:
+    #if guess is lower than number, indicate so and increase attempts
+    print("guess too low, try again, attempts:" + " " + str(attempt))
+    attempt = attempt + 1
+    #reassign variable user input
+    w = int(input("guess again," + "you're on attempt number " + str(attempt) + " : "))
