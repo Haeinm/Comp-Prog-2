@@ -1,0 +1,6 @@
+fullname = input("Enter your first or lastname :")
+fullname1 = fullname.lower()
+str(len(fullname1))
+firstLetter = fullname1[0]
+lastPart = fullname1[1:]
+print (lastPart+firstLetter+'ay')
