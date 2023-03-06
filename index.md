@@ -4,7 +4,7 @@
 ![Running shape tester]()
 [source code]()
 
-![Running bottles on the wall]()
+![Running Random Number Guesser]()
 [source code]()
 
 ![Running Pig latin]()
