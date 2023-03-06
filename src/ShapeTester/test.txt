@@ -1,1 +1,119 @@
+# =^._.^= import all needed objects !
+from Box import Box
+from Sphere import Sphere
+from Pyramid import Pyramid
 
+
+#grab input from user
+
+print("welcome to shape tester!")
+option = input("would you like to make a box, sphere, or pyramid? please type all lower case: ")
+#grab information from classes, then print
+if option == "box":
+  l = input("enter value for  box length: ")
+  w = input("enter value for  box width: ")
+  h = input("enter value for  box height: ")
+  b1 = Box(l,w,h)
+  b1.calcVol()
+  b1.calcSA()
+  print("This is the volume of your box!: " + str(b1.getVol()))
+  print("This is the surface area of your box!: " + str(b1.getSA()))
+  
+if option == "sphere":
+  r = input("enter value for sphere radius: ")
+  s1 = Sphere(r)
+  s1.calcVol()
+  s1.calcSA()
+  print("This is the volume of your sphere!: " + str(s1.getVol()))
+  print("This is the surface area of ur sphere!: " + str(s1.getSA()))
+  
+
+if option == "pyramid":
+  l = input("enter value for  pyramid length: ")
+  w = input("enter value for  pyramid width: ")
+  h = input("enter value for  pyramid height: ")
+  p1 = Pyramid(l,w,h)
+  p1.calcVol()
+  p1.calcSA()
+  print("This is the volume of your pyramid!: " + str(p1.getVol()))
+  print("This is the surface area of your pyramid!: " + str(p1.getSA()))
+  
+  
+In a different class for Pyramid:
+
+import math
+#import math in order to use pi
+class Pyramid:
+  l = 0
+  w = 0
+  h = 0
+  vol = 0
+  sa = 0.0
+  
+  def __init__(self, l,w,h):
+        self.l = float(l)
+        self.w = float(w)
+        self.h = float(h)
+  
+  def calcVol(self):
+    self.vol = self.l*self.w*self.h / 3 
+    
+  def calcSA(self):
+    self.sa = (self.l*self.w) + self.l*(math.sqrt(math.pow((self.w)/2, 2) + 
+    math.pow(self.h, 2))) + self.w*(math.sqrt(math.pow((self.l)/2, 2) + 
+    math.pow(self.h , 2)))
+
+  def getVol(self):
+    return self.vol
+
+  def getSA(self):
+    return self.sa
+    
+    
+In a different class for Sphere:
+import math
+#import math in order to use for square root and power
+class Sphere:
+  r = 0
+  vol = 0
+  sa = 0
+  def __init__(self, r):
+    self.r = r
+
+  def calcVol(self):
+    self.vol = float((4/3)*(math.pi)*(math.pow(float(self.r), 3)))
+    
+  def calcSA(self): 
+    self.sa = float(4*math.pi)*(math.pow(float(self.r), 2))
+
+  def getVol(self):
+    return self.vol
+
+  def getSA(self):
+    return self.sa
+    
+In a different class for Box:
+#set class information and variables
+class Box:
+  l = 0
+  w = 0
+  h = 0
+  vol = 0
+  sa = 0
+  
+  def __init__(self, l,w,h):
+        self.l = float(l)
+        self.w = float(w)
+        self.h = float(h)
+  
+  def calcVol(self):
+    self.vol = self.l*self.w*self.h
+    
+  def calcSA(self):
+    self.sa = self.l*2 + self.w*2 
+
+  def getVol(self):
+    return self.vol
+
+  def getSA(self):
+    return self.sa
