@@ -18,7 +18,7 @@ Test your luck at guessing a number between 1-100. Each guess inches you closer 
 ### Pig Latin
 Have some fun translating your name or words into basic pig latin.
 
-![Running Pig latin](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/PigLatin/PiglatinProgSem2.PNG)
+![Running Pig latin](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/PigLatin/PiglatinProgSem2.jpg)
 
 
 [source code](https://github.com/Haeinm/Comp-Prog-2/blob/main/src/PigLatin/PigLatin.txt)
