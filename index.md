@@ -3,7 +3,7 @@
 ### Shape tester
 Input your values in height, length, width, and radius in order to get surface area and volume for pyramid, spheres, and boxes.  
 ![Running shape tester](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/ShapeTest/ShapeTesterBoxProgSem2.PNG)
-![Running shape tester](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/ShapeTest/ShapeTesterPyramidProgSem2.PNG)
+![Running shape tester](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/ShapeTest/ShapeTesterPyramidProgSem2.PNG?raw=true)
 ![Running shape tester](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/ShapeTest/ShapeTesterSphereProgSem2.PNG)
 
 [source code](https://github.com/Haeinm/Comp-Prog-2/blob/main/src/ShapeTester/ShapeTest.txt)
