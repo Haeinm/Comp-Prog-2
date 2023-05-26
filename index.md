@@ -1,5 +1,5 @@
 # Welcome to grace's programming portfolio 
-## About me: Programming 2 | Grace H. Min | contact info: gracehkmin@gmail.com 
+## About me: Programming 2 | Grace H. Min | [contact info](gracehkmin@gmail.com) 
 # Certifications: Gaming development 1, Computer programming 1 in python, Computer programming 2 in python
 ## Group Projects:
 # Snake Game Replicate
