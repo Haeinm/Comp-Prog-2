@@ -33,7 +33,7 @@ Input a number and recieve that number of random words and defintions !
 
 
 ### Fahrenheit to Celcius
-Input a number and recieve that number of random words and defintions !
+Have a hard time calculating Fahrenheit to Celcius? I'll do it for you !
 
 ![Running word generator](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/FarhToCel.png?raw=true)
 
