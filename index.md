@@ -30,3 +30,12 @@ Input a number and recieve that number of random words and defintions !
 
 
 [source code](https://github.com/Haeinm/Comp-Prog-2/blob/main/src/Definitions.py)
+
+
+### Fahrenheit to Celcius
+Input a number and recieve that number of random words and defintions !
+
+![Running word generator](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/FarhToCel.png?raw=true)
+
+
+[source code](https://github.com/Haeinm/Comp-Prog-2/blob/main/src/farhToCel.py)
