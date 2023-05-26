@@ -22,3 +22,11 @@ Have some fun translating your name or words into basic pig latin.
 
 
 [source code](https://github.com/Haeinm/Comp-Prog-2/blob/main/src/PigLatin/PigLatin.txt)
+
+### Random Word Generator
+Input a number and recieve that number of random words and defintions !
+
+![Running word generator](https://github.com/Haeinm/Comp-Prog-2/blob/main/images/definitionsSS.png?raw=true)
+
+
+[source code](https://github.com/Haeinm/Comp-Prog-2/blob/main/src/Definitions.py)
