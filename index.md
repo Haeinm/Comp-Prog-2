@@ -6,7 +6,7 @@
 title: UI/UX/troubleshoot
 description: This is a clone of the famous snake game that was on the Nokia 3310 or Google where food shows up and you eat the food and get longer. However we are stylizing it more on pixels instead of flat colors.
 ![Running snake game](https://github.com/LemScoot/Group-Project-for-Programming-2023/blob/main/Snake%20Clone/Images%20for%20Snake%20Clone/Screen%20Shot%202023-05-25%20at%2010.04.12%20AM.png?raw=true)
-[link to group repository] (https://github.com/LemScoot/Group-Project-for-Programming-2023/tree/main)
+[link to group repository](https://github.com/LemScoot/Group-Project-for-Programming-2023/tree/main)
 ## Programming semester 2 projects!
 ### Shape tester
 Input your values in height, length, width, and radius in order to get surface area and volume for pyramid, spheres, and boxes.  
